@@ -15,3 +15,4 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+// el layuot es un componente llamado Roo

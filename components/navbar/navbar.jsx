@@ -6,7 +6,7 @@ export default function Nabvar(){
         <li className='navegacion'>
           <Link href="/">Home</Link>
           <Link href="/contactanos">Contactanoss</Link>
-          <Link href="/registrate">Inicia sesion</Link>
+          <Link href="/iniciarSesion">Inicia sesion</Link>
         </li>
       </ul>
     </nav>

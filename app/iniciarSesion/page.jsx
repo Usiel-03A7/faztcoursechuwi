@@ -1,3 +1,6 @@
+export const metadata = {
+  title: "Iniciar Sesion"
+}
 export default function Registrate() {
   return (
     <div className="registrate">

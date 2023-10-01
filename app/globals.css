@@ -97,3 +97,8 @@ button:active {
   
   border-radius: 8px;
 }
+.error{
+  background-color: #8f5c5c;
+  color: #000;
+  
+}

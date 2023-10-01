@@ -25,3 +25,67 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00bbff;
+}
+.navegacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #04094b;
+  height: 50px;
+  flex-direction: row;
+  gap: 3rem;
+}
+.registrate {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 22%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+.registrate input {
+  height: 2rem;
+  border-radius: 8px;
+  color: #114f63;
+  text-align: center;
+  height: 3rem;
+  font-weight: 800;
+}
+.formulario {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  width: 22%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+button {
+  background-color: #04094b;
+  color: #00bbff;
+  border-radius: 8px;
+  text-align: center;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+/* button:hover {
+  background-color: #00bbff;
+  color: #04094b;  
+} */
+/* click del boton */
+button:active {
+  background-color: #00bbff;
+  color: #04094b;
+  font-size: 1.3rem;
+  transition: 0.01s;
+  
+  border-radius: 8px;
+}

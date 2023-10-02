@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Nabvar from '../components/navbar/navbar'
+import FooterComponent from '@/components/footer/footerComponent'
 
 export const metadata = {
   title:"Fazt code cursito de nextjs <3 "
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         <Nabvar />
         {children}
         </body>
+        <FooterComponent />
     </html>
   )
 }
